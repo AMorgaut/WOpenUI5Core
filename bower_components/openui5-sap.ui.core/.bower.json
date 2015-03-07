@@ -1,0 +1,29 @@
+{
+  "name": "openui5-sap.ui.core",
+  "description": "OpenUI5 Core Library sap.ui.core",
+  "version": "1.28.0",
+  "license": "Apache-2.0",
+  "ignore": [],
+  "keywords": [
+    "openui5"
+  ],
+  "authors": [
+    "SAP SE <*@sap.com>"
+  ],
+  "homepage": "http://openui5.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SAP/openui5.git"
+  },
+  "dependencies": {},
+  "_release": "1.28.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.28.0",
+    "commit": "ea2a9da3d2d1559dc6c6443f61b5264c14c4e190"
+  },
+  "_source": "git://github.com/openui5/packaged-sap.ui.core.git",
+  "_target": "~1.28.0",
+  "_originalSource": "openui5/packaged-sap.ui.core",
+  "_direct": true
+}

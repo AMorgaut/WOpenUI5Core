@@ -1,0 +1,23 @@
+{
+    "name": "OpenUI5Core",
+    "studioName": "OpenUI5Core",
+    "category": "SAP",
+    "iconPath": "/icons/OpenUI5_logo_only_small.png",
+    "author": "Alexandre Morgaut",
+    "version": "1.0.0",
+    "copyright": "(c) 2014 Alexandre Morgaut",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AMorgaut/WOpenUI5Core.git"
+    },
+    "keywords": ["wakanda", "widget"],
+    "engines": {"wakanda": ">= 9"},
+    "license": "Apache-2.0",
+    "externalWidgets": [ ],
+    "loadDependencies": [
+        {"id": "Widget_V2"},
+        {"id": "OpenUI5Core/bower_components/openui5-sap.ui.core/resources/sap-ui-core-noJQuery.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "OpenUI5Core/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+        {"id": "OpenUI5Core/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}
